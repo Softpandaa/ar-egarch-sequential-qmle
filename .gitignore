@@ -1,0 +1,7 @@
+archive/
+papers/
+latex/
+cache/
+slides.pdf
+.RData
+.Rhistory
