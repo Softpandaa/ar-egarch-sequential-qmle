@@ -4,7 +4,9 @@ This study compares joint and sequential Gaussian quasi-maximum likelihood estim
 
 ## Findings
 
-The information matrix is not block diagonal between the mean and the variance parameters, even without a leverage effect, through a single entry that links the intercept of the mean to the coefficient on the lagged innovation in the log variance. Without leverage, the 2S estimator therefore loses efficiency only for this coefficient, and only when the intercept is estimated. With leverage, the loss extends to the intercept and the persistence of the log variance at second order in the leverage coefficient. It is largest for the mean log variance, whose asymptotic variance exceeds that of the joint estimator by 15% in the base design of the Monte Carlo study and by 17% to 21% at the S&P 500 estimate. The 3S estimator attains the efficiency of generalized least squares with known variances, and its variance for the mean lies within 9% of that of the joint estimator in every design.
+The information matrix is not block diagonal between the mean and the variance parameters, even without a leverage effect, through a single entry that links the mean return to the coefficient on the lagged innovation in the log variance. Without leverage, the 2S estimator therefore loses efficiency only for this coefficient, and only when the mean return is estimated.
+
+With leverage, the loss extends to the intercept and the persistence of the log variance at second order in the leverage coefficient. It is largest for the mean log variance, whose asymptotic variance exceeds that of the joint estimator by approximately 15% in the base design of the Monte Carlo study and by 17% to 21% at the S&P 500 estimate. The 3S estimator attains the efficiency of generalized least squares with known variances and recovers most of the efficiency for the mean parameters.
 
 ## Layout
 
